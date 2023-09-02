@@ -125,7 +125,7 @@ ${"" /* resuable code section  */}
       color: #5138ee;
     }
 
-   .caption {
+   .caption{
       position: absolute;
       top: 15%;
       right: 10%;

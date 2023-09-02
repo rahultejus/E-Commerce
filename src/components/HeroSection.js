@@ -14,9 +14,9 @@ const HeroSection = ({ myData }) => {
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+              Discover a world of convenience and choice at RKStore, your go-to online shopping destination.
+              We bring you a curated selection of top-quality products that cater to your every need and desire. 
+              From fashion to electronics, home essentials to lifestyle indulgences, RKStore has it all.
             </p>
             <NavLink to="/">
               <Button>show now</Button>

@@ -2,11 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Button } from "../styles/Button";
-import { FaDiscord, FaInstagram, FaYoutube } from "react-icons/fa";
+import {FaLinkedinIn,FaFacebook, FaInstagram} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <>
       <Wrapper>
         <section className="contact-short">
           <div className="grid grid-two-column">
@@ -27,7 +26,7 @@ const Footer = () => {
         <footer>
           <div className="container grid grid-four-column">
             <div className="footer-about">
-              <h3>Thapa Technical</h3>
+              <h3>Rahul Kumar</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
             <div className="footer-subscribe">
@@ -42,23 +41,28 @@ const Footer = () => {
               <h3>Follow Us</h3>
               <div className="footer-social--icons">
                 <div>
-                  <FaDiscord className="icons" />
-                </div>
-                <div>
-                  <FaInstagram className="icons" />
-                </div>
-                <div>
-                  <a
-                    href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                  <a href="https://www.facebook.com/profile.php?id=100055962826085&mibextid=ZbWKwL"
                     target="_blank" rel="noopener noreferrer">
-                    <FaYoutube className="icons" />
+                  <FaFacebook className="icons" />
                   </a>
+                </div>
+                <div>
+                  <a href="https://www.instagram.com/invites/contact/?i=kmlw2oi50ycb&utm_content=kpjhhhc"
+                  target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="icons" />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/rahul-kumar-805784203"
+                    target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn className="icons" />
+                </a>
                 </div>
               </div>
             </div>
             <div className="footer-contact">
               <h3>Call Us</h3>
-              <h3>+91 12345678978</h3>
+              <h3>+91 2345678987</h3>
             </div>
           </div>
 
@@ -66,7 +70,7 @@ const Footer = () => {
             <hr />
             <div className="container grid grid-two-column ">
               <p>
-                @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+                @{new Date().getFullYear()}RahulKumar.All Rights Reserved
               </p>
               <div>
                 <p>PRIVACY POLICY</p>
@@ -76,11 +80,10 @@ const Footer = () => {
           </div>
         </footer>
       </Wrapper>
-    </>
   );
 };
 
-const Wrapper = styled.section`
+const Wrapper =styled.section`
   .iSIFGq {
     margin: 0;
   }
@@ -100,7 +103,7 @@ const Wrapper = styled.section`
     }
   }
 
-  footer {
+  footer{
     padding: 14rem 0 9rem 0;
     background-color: ${({ theme }) => theme.colors.footer_bg};
     h3 {
@@ -154,7 +157,6 @@ const Wrapper = styled.section`
     footer {
       padding: 9rem 0 9rem 0;
     }
-
     .footer-bottom--section {
       padding-top: 4.8rem;
     }
